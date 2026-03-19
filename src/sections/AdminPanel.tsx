@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { 
   LayoutDashboard, Users, Receipt, AlertTriangle, 
   Wallet, Megaphone, TrendingUp, DollarSign, 
-  ShoppingBag, Star, CheckCircle, XCircle, Clock,
+  ShoppingBag, CheckCircle, XCircle,
   ChevronRight, Search, Filter, MoreHorizontal,
   Shield, Ban, Check
 } from 'lucide-react';
