@@ -1,7 +1,6 @@
-@import "tailwindcss";
-@import "tw-animate-css";
-
-@custom-variant dark (&:is(.dark *));
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* ============================================
    BUYSELL NIGERIA - MODERN DESIGN SYSTEM
@@ -529,44 +528,3 @@ body {
   }
 }
 
-@theme inline {
-  --color-background: var(--bg-primary);
-  --color-foreground: var(--text-primary);
-  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --color-sidebar-ring: var(--forest-500);
-  --color-sidebar-border: var(--border-light);
-  --color-sidebar-accent-foreground: var(--text-primary);
-  --color-sidebar-accent: var(--bg-tertiary);
-  --color-sidebar-primary-foreground: var(--text-light);
-  --color-sidebar-primary: var(--forest-600);
-  --color-sidebar-foreground: var(--text-primary);
-  --color-sidebar: var(--bg-primary);
-  --color-chart-5: var(--gold-500);
-  --color-chart-4: var(--forest-500);
-  --color-chart-3: var(--info);
-  --color-chart-2: var(--warning);
-  --color-chart-1: var(--error);
-  --color-ring: var(--forest-500);
-  --color-input: var(--border-light);
-  --color-border: var(--border-light);
-  --color-destructive: var(--error);
-  --color-accent-foreground: var(--text-primary);
-  --color-accent: var(--bg-tertiary);
-  --color-muted-foreground: var(--text-secondary);
-  --color-muted: var(--bg-secondary);
-  --color-secondary-foreground: var(--text-primary);
-  --color-secondary: var(--bg-tertiary);
-  --color-primary-foreground: var(--text-light);
-  --color-primary: var(--forest-600);
-  --color-popover-foreground: var(--text-primary);
-  --color-popover: var(--bg-primary);
-  --color-card-foreground: var(--text-primary);
-  --color-card: var(--bg-primary);
-  --radius-sm: var(--radius-sm);
-  --radius-md: var(--radius-md);
-  --radius-lg: var(--radius-lg);
-  --radius-xl: var(--radius-xl);
-  --radius-2xl: var(--radius-2xl);
-  --radius-3xl: var(--radius-3xl);
-  --radius-4xl: var(--radius-full);
-}
